@@ -1,0 +1,43 @@
+.flex-container-column {
+    display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: stretch;
+      align-content: center;
+      width: 30%;
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  .box {
+    background-color: rgb(117, 204, 117);
+    color: #333;
+    padding: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .content {
+    padding: 5px;
+  }
+  
+  .ellipsis {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+  }
+  
+  .name-box {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .inner-container {
+    overflow: hidden;
+    width: 100%;
+  }
